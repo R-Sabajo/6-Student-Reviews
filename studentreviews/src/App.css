@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.studentList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.leukMoeilijk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelMoeilijk {
+  color: 'salmon';
+  font-size: 1.2em;
+  border: 1px solid salmon;
+  background-color: salmon;
+  border-radius: 15px;
+  padding: 3px 15px;
+  color: white;
+}
+.labelLeuk {
+  color: 'salmon';
+  font-size: 1.2em;
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  padding: 3px 15px;
+  color: white;
+}

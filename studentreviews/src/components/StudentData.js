@@ -1,10 +1,4 @@
-const StudentsData = [
-  {
-    student: 'Evelyn',
-    opdracht: 'SCRUM',
-    moeilijkheid: 3,
-    plezier: 4,
-  },
+const StudentData = [
   {
     student: 'Evelyn',
     opdracht: 'W1D1-1',
@@ -67,7 +61,7 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 5,
     plezier: 5,
   },
@@ -79,13 +73,13 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 3,
     plezier: 4,
   },
   {
     student: 'Evelyn',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 3,
     plezier: 3,
   },
@@ -157,7 +151,7 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 3,
     plezier: 4,
   },
@@ -241,7 +235,7 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 2,
     plezier: 5,
   },
@@ -301,7 +295,7 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 1,
     plezier: 5,
   },
@@ -313,7 +307,7 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 4,
     plezier: 3,
   },
@@ -331,13 +325,13 @@ const StudentsData = [
   },
   {
     student: 'Evelyn',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 5,
     plezier: 5,
   },
   {
     student: 'Aranka',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -403,7 +397,7 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 2,
     plezier: 3,
   },
@@ -415,13 +409,13 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 4,
     plezier: 3,
   },
   {
     student: 'Aranka',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 4,
     plezier: 1,
   },
@@ -493,7 +487,7 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 2,
     plezier: 2,
   },
@@ -577,7 +571,7 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -586,6 +580,12 @@ const StudentsData = [
     opdracht: 'W4D2-1',
     moeilijkheid: 2,
     plezier: 1,
+  },
+  {
+    student: 'Evelyn',
+    opdracht: 'W4D2',
+    moeilijkheid: 3,
+    plezier: 4,
   },
   {
     student: 'Aranka',
@@ -637,7 +637,7 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 4,
     plezier: 4,
   },
@@ -649,7 +649,7 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 3,
     plezier: 2,
   },
@@ -667,13 +667,13 @@ const StudentsData = [
   },
   {
     student: 'Aranka',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 3,
     plezier: 4,
   },
   {
     student: 'Floris',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 2,
     plezier: 1,
   },
@@ -739,7 +739,7 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 2,
     plezier: 2,
   },
@@ -751,13 +751,13 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 4,
     plezier: 3,
   },
   {
     student: 'Floris',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 4,
     plezier: 4,
   },
@@ -829,7 +829,7 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 4,
     plezier: 1,
   },
@@ -913,7 +913,7 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 4,
     plezier: 2,
   },
@@ -973,7 +973,7 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 2,
     plezier: 2,
   },
@@ -985,7 +985,7 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -1003,13 +1003,13 @@ const StudentsData = [
   },
   {
     student: 'Floris',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 4,
     plezier: 1,
   },
   {
     student: 'Hector',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 1,
     plezier: 2,
   },
@@ -1075,7 +1075,7 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -1087,13 +1087,13 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 1,
     plezier: 3,
   },
   {
     student: 'Hector',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -1165,7 +1165,7 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 4,
     plezier: 1,
   },
@@ -1249,7 +1249,7 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -1309,7 +1309,7 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -1321,7 +1321,7 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -1339,13 +1339,13 @@ const StudentsData = [
   },
   {
     student: 'Hector',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 2,
     plezier: 4,
   },
   {
     student: 'Martina',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -1411,7 +1411,7 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 2,
     plezier: 2,
   },
@@ -1423,13 +1423,13 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 1,
     plezier: 3,
   },
   {
     student: 'Martina',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 1,
     plezier: 4,
   },
@@ -1501,7 +1501,7 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -1585,7 +1585,7 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 2,
     plezier: 3,
   },
@@ -1645,7 +1645,7 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 3,
     plezier: 4,
   },
@@ -1657,7 +1657,7 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -1675,13 +1675,13 @@ const StudentsData = [
   },
   {
     student: 'Martina',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 1,
     plezier: 4,
   },
   {
     student: 'Maurits',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 3,
     plezier: 4,
   },
@@ -1747,7 +1747,7 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -1759,13 +1759,13 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 4,
     plezier: 1,
   },
   {
     student: 'Maurits',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 3,
     plezier: 2,
   },
@@ -1837,7 +1837,7 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -1921,7 +1921,7 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 3,
     plezier: 4,
   },
@@ -1981,7 +1981,7 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 2,
     plezier: 3,
   },
@@ -1993,7 +1993,7 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 4,
     plezier: 2,
   },
@@ -2011,13 +2011,13 @@ const StudentsData = [
   },
   {
     student: 'Maurits',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 3,
     plezier: 3,
   },
   {
     student: 'Rahima',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -2083,7 +2083,7 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -2095,13 +2095,13 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 2,
     plezier: 4,
   },
   {
     student: 'Rahima',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 3,
     plezier: 3,
   },
@@ -2173,7 +2173,7 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 3,
     plezier: 1,
   },
@@ -2257,7 +2257,7 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -2317,7 +2317,7 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 1,
     plezier: 2,
   },
@@ -2329,7 +2329,7 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 2,
     plezier: 3,
   },
@@ -2347,13 +2347,13 @@ const StudentsData = [
   },
   {
     student: 'Rahima',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 4,
     plezier: 1,
   },
   {
     student: 'Sandra',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 4,
     plezier: 1,
   },
@@ -2419,7 +2419,7 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -2431,13 +2431,13 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 1,
     plezier: 3,
   },
   {
     student: 'Sandra',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 3,
     plezier: 3,
   },
@@ -2509,7 +2509,7 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -2593,7 +2593,7 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 1,
     plezier: 2,
   },
@@ -2653,7 +2653,7 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 3,
     plezier: 4,
   },
@@ -2665,7 +2665,7 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 2,
     plezier: 2,
   },
@@ -2683,13 +2683,13 @@ const StudentsData = [
   },
   {
     student: 'Sandra',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 4,
     plezier: 1,
   },
   {
     student: 'Wietske',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -2755,7 +2755,7 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -2767,13 +2767,13 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 2,
     plezier: 3,
   },
   {
     student: 'Wietske',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 3,
     plezier: 3,
   },
@@ -2845,7 +2845,7 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 2,
     plezier: 2,
   },
@@ -2929,7 +2929,7 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 2,
     plezier: 4,
   },
@@ -2989,7 +2989,7 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 4,
     plezier: 2,
   },
@@ -3001,7 +3001,7 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 4,
     plezier: 2,
   },
@@ -3019,13 +3019,13 @@ const StudentsData = [
   },
   {
     student: 'Wietske',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 1,
     plezier: 2,
   },
   {
     student: 'Storm',
-    opdracht: 'SCRUM',
+    opdracht: 'W4D2',
     moeilijkheid: 1,
     plezier: 1,
   },
@@ -3091,7 +3091,7 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W1D3 - Project - Guess-the-number',
+    opdracht: 'W1D3',
     moeilijkheid: 3,
     plezier: 4,
   },
@@ -3103,13 +3103,13 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W1D4 - Project - Kleurentoggle',
+    opdracht: 'W1D4',
     moeilijkheid: 3,
     plezier: 2,
   },
   {
     student: 'Storm',
-    opdracht: 'W1D5 - Project - Galgje',
+    opdracht: 'W1D5',
     moeilijkheid: 4,
     plezier: 4,
   },
@@ -3181,7 +3181,7 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W2D5 - Project - Filmzoeker',
+    opdracht: 'W2D5',
     moeilijkheid: 4,
     plezier: 1,
   },
@@ -3265,7 +3265,7 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W3D5 - Project - Todo-List',
+    opdracht: 'W3D5',
     moeilijkheid: 3,
     plezier: 2,
   },
@@ -3325,7 +3325,7 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W4D3 - Project - Next-Level CSS',
+    opdracht: 'W4D3',
     moeilijkheid: 4,
     plezier: 1,
   },
@@ -3337,7 +3337,7 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W5D5 - Project - Lil_Playlist',
+    opdracht: 'W5D5',
     moeilijkheid: 1,
     plezier: 2,
   },
@@ -3355,8 +3355,56 @@ const StudentsData = [
   },
   {
     student: 'Storm',
-    opdracht: 'W6D2 - Project - Eindopdracht',
+    opdracht: 'W6D2',
     moeilijkheid: 3,
     plezier: 3,
   },
 ];
+
+const Students = [...new Set(StudentData.map(i => i.student))];
+
+// calculate average rating for each assignment:
+let studentReviews = StudentData;
+let calcDifficultyAverage = (data, opdracht) => {
+  const filterOpdracht = data.filter(item => item.opdracht === opdracht);
+  const opdrachtTotal = filterOpdracht.length;
+
+  const totalMoeilijkheid = filterOpdracht.reduce(
+    (sum, current) => sum + current.moeilijkheid,
+    0
+  );
+
+  return totalMoeilijkheid / opdrachtTotal;
+};
+
+let calcEnjoyAverage = (data, opdracht) => {
+  const filterOpdracht = data.filter(item => item.opdracht === opdracht);
+  const opdrachtTotal = filterOpdracht.length;
+  const totalEnjoy = filterOpdracht.reduce(
+    (sum, current) => sum + current.plezier,
+    0
+  );
+
+  return totalEnjoy / opdrachtTotal;
+};
+
+const getAverageScores = (data, opdracht) => {
+  const assignment = opdracht;
+  const averageDifficultyScore = calcDifficultyAverage(data, opdracht);
+  const averageEnjoyScore = calcEnjoyAverage(data, opdracht);
+
+  const newObject = {
+    opdracht: assignment,
+    moeilijkheid: averageDifficultyScore,
+    plezier: averageEnjoyScore,
+  };
+  return newObject;
+};
+
+const studentReviewsAverage = studentReviews.map(item =>
+  getAverageScores(studentReviews, item.opdracht)
+);
+
+let ShowAvgScores = studentReviewsAverage.slice(0, 56);
+
+export default { ShowAvgScores, StudentData, Students };
