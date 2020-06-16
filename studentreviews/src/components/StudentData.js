@@ -3373,7 +3373,6 @@ let calcDifficultyAverage = (data, opdracht) => {
     (sum, current) => sum + current.moeilijkheid,
     0
   );
-
   return totalMoeilijkheid / opdrachtTotal;
 };
 
@@ -3384,7 +3383,6 @@ let calcEnjoyAverage = (data, opdracht) => {
     (sum, current) => sum + current.plezier,
     0
   );
-
   return totalEnjoy / opdrachtTotal;
 };
 
@@ -3392,7 +3390,6 @@ const getAverageScores = (data, opdracht) => {
   const assignment = opdracht;
   const averageDifficultyScore = calcDifficultyAverage(data, opdracht);
   const averageEnjoyScore = calcEnjoyAverage(data, opdracht);
-
   const newObject = {
     opdracht: assignment,
     moeilijkheid: averageDifficultyScore,

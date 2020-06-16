@@ -9,6 +9,7 @@ export class Nav extends Component {
 
     return (
       <div className="navbar">
+        <p>Klik op student voor individuele scores</p>
         <h3 className="studentList">{studentsList}</h3>
       </div>
     );

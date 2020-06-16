@@ -11,7 +11,7 @@ class Header extends React.Component {
     return (
       <div className="header">
         <Link to="/" onClick={() => this.props.handleClick(home)} to={`/`}>
-          <h1>winc STUDENT reviews</h1>
+          <h1>{'( { - WINC STUDENT REVIEWS - } )'}</h1>
         </Link>
       </div>
     );

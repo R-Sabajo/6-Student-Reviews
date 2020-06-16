@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import StudentData from './StudentData';
 import StudentChartView from './StudentChartView';
 import Header from './Header';
+import Footer from './Footer';
 import LeukMoeilijk from './LeukMoeilijk';
 import Nav from './Nav';
 
@@ -18,7 +19,7 @@ export class MainContainer extends Component {
       leukChecked: true,
     };
     this.handleClick = this.handleClick.bind(this);
-    this.handleChange = this.handleChange.bind(this);
+    this.handleClick2 = this.handleClick2.bind(this);
   }
 
   handleClick = student => {
@@ -41,14 +42,10 @@ export class MainContainer extends Component {
     }
   };
 
-  handleChange = event => {
-    console.log('changed', event);
+  handleClick2 = event => {
     this.setState(prevState => {
-      if (event === 'moeilijk') {
-        this.state.moeilijkChecked = !prevState.moeilijkChecked;
-      }
-
-      return {};
+      let moeilijkCheck = prevState.moeilijkChecked;
+      if (event === 'moeilijk') moeilijkCheck = this.state.moeilijkChecked;
     });
   };
 
@@ -62,7 +59,6 @@ export class MainContainer extends Component {
             students={this.state.students}
             handleClick={this.handleClick}
           />
-
           <Route
             path="/"
             render={props => (
@@ -72,10 +68,11 @@ export class MainContainer extends Component {
             )}
           />
           <LeukMoeilijk
-            moeilijkChecked={this.state.moeilijkChecked}
-            leukChecked={this.state.leukChecked}
-            handleChange={this.handleChange}
+            checkLeuk={this.state.leukChecked}
+            checkMoeilijk={this.state.moeilijkChecked}
+            handleClick={this.handleClick2}
           />
+          <Footer />
         </Router>
       </div>
     );

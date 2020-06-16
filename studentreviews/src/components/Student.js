@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 class Student extends React.Component {
   render(props) {
     return (
-      <div className="Student">
-        <input type="checkbox" name={this.props.studentname} />
+      <div>
         <Link
+          className="student"
           onClick={() => this.props.handleClick(this.props.studentname)}
           to={`/${this.props.studentname}`}
         >
