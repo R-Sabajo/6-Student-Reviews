@@ -9,7 +9,6 @@ a {
 .header {
   border: 1px solid cornflowerblue;
   background-color: cornflowerblue;
-
   color: white;
 }
 
@@ -38,8 +37,11 @@ a {
   margin-right: 10px;
 }
 
+.chart {
+  margin-top: -30px;
+}
 .main {
-  background-color: lightgray;
+  background-color: #eeeeee;
 }
 
 .leukMoeilijk {
