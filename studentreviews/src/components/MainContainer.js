@@ -15,11 +15,11 @@ export class MainContainer extends Component {
       students: StudentData.Students,
       ShowAvgScores: StudentData.ShowAvgScores,
       Showhome: StudentData.ShowAvgScores,
-      moeilijkChecked: true,
-      leukChecked: true,
+      moeilijkChecked: false,
+      leukChecked: false,
     };
     this.handleClick = this.handleClick.bind(this);
-    this.handleClick2 = this.handleClick2.bind(this);
+    // this.handleClick2 = this.handleClick2.bind(this);
   }
 
   handleClick = student => {
@@ -42,12 +42,12 @@ export class MainContainer extends Component {
     }
   };
 
-  handleClick2 = event => {
-    this.setState(prevState => {
-      let moeilijkCheck = prevState.moeilijkChecked;
-      if (event === 'moeilijk') moeilijkCheck = this.state.moeilijkChecked;
-    });
-  };
+  // handleClick2 = event => {
+  //   this.setState(prevState => {
+  //     let moeilijkCheck = prevState.moeilijkChecked;
+  //     if (event === 'moeilijk') moeilijkCheck = this.state.moeilijkChecked;
+  //   });
+  // };
 
   render() {
     return (

@@ -14,7 +14,7 @@ export class LeukMoeilijk extends Component {
           type="checkbox"
           id="moeilijk"
           checked={this.props.checkMoeilijk}
-          onClick={() => this.props.handleClick(moeilijk)}
+          // onClick={() => this.props.handleClick(moeilijk)}
         />
         <label for="moeilijk">
           <h3 className="labelMoeilijk">Moeilijk</h3>
@@ -23,7 +23,7 @@ export class LeukMoeilijk extends Component {
           type="checkbox"
           id="leuk"
           checked={this.props.checkLeuk}
-          onClick={() => this.props.handleClick(leuk)}
+          // onClick={() => this.props.handleClick(leuk)}
         />
         <label for="leuk">
           <h3 className="labelLeuk">Leuk</h3>

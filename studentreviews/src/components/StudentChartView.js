@@ -19,6 +19,7 @@ const StudentChartView = props => {
         height={200}
       >
         <VictoryAxis
+          textAnchor="start"
           label="opdracht"
           style={{
             axisLabel: { padding: 30 },
