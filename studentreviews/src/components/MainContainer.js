@@ -4,7 +4,7 @@ import StudentData from './StudentData';
 import StudentChartView from './StudentChartView';
 import Header from './Header';
 import Footer from './Footer';
-import LeukMoeilijk from './LeukMoeilijk';
+
 import Nav from './Nav';
 
 export class MainContainer extends Component {
@@ -15,7 +15,7 @@ export class MainContainer extends Component {
       students: StudentData.Students,
       ShowAvgScores: StudentData.ShowAvgScores,
       Showhome: StudentData.ShowAvgScores,
-      moeilijkChecked: false,
+      moeilijkChecked: true,
       leukChecked: false,
     };
     this.handleClick = this.handleClick.bind(this);
@@ -42,13 +42,6 @@ export class MainContainer extends Component {
     }
   };
 
-  // handleClick2 = event => {
-  //   this.setState(prevState => {
-  //     let moeilijkCheck = prevState.moeilijkChecked;
-  //     if (event === 'moeilijk') moeilijkCheck = this.state.moeilijkChecked;
-  //   });
-  // };
-
   render() {
     return (
       <div className="main">
@@ -59,6 +52,7 @@ export class MainContainer extends Component {
             students={this.state.students}
             handleClick={this.handleClick}
           />
+
           <Route
             path="/"
             render={props => (
@@ -67,11 +61,7 @@ export class MainContainer extends Component {
               </React.Fragment>
             )}
           />
-          <LeukMoeilijk
-            checkLeuk={this.state.leukChecked}
-            checkMoeilijk={this.state.moeilijkChecked}
-            handleClick={this.handleClick2}
-          />
+
           <Footer />
         </Router>
       </div>

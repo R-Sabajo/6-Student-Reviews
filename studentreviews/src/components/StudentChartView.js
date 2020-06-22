@@ -6,6 +6,7 @@ import {
   VictoryAxis,
   VictoryGroup,
 } from 'victory';
+import LeukMoeilijk from './LeukMoeilijk';
 
 const StudentChartView = props => {
   let showScores = props.studentData;
@@ -68,6 +69,7 @@ const StudentChartView = props => {
           />
         </VictoryGroup>
       </VictoryChart>
+      <LeukMoeilijk />
       <VictoryChart
         domainPadding={20}
         domainPadding={{ x: 20 }}
